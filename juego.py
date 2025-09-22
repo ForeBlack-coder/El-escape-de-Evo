@@ -6,20 +6,20 @@ import pygame
 
 pygame.mixer.init()
 pygame.init()
-fondo = pygame.mixer.Sound("fondo.mp3")
+fondo = pygame.mixer.Sound("resources/fondo.mp3")
 
 NUM_OBSTACULOS = 6
 VELOCIDAD_OBSTACULOS = 4.5
 
 ventana = turtle.Screen()
 ventana.title("El escape de evo")
-ventana.bgpic("Laboratorio.gif")
+ventana.bgpic("resources/Laboratorio.gif")
 ventana.setup(width=950, height=650) 
 ventana.tracer(0)
 
-ventana.addshape("evo.gif")
-ventana.addshape("coca.gif")
-ventana.addshape("DEA.gif")
+ventana.addshape("resources/evo.gif")
+ventana.addshape("resources/coca.gif")
+ventana.addshape("resources/DEA.gif")
 jugando = True
 
 def salir():
