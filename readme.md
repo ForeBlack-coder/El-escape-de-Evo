@@ -45,7 +45,7 @@ Queremos agradecer a nuestro docente, al decano de la facultad de ingeniería y 
 ## Cómo Contribuir
 Como proyecto universitario, las contribuciones están limitadas a los miembros del equipo. Sin embargo, si encuentras algún error o tienes alguna sugerencia para mejorar el código o los análisis, no dudes en contactarte con el equipo de desarrollo.
 
-Para cualquier pregunta o comentario, por favor contacta al correo electrónico (sc.jhonatan.mendoza.j@upds.net.bo) o a mi [Github](https://github.com/ForeBlack-coder) personal.
+Para cualquier pregunta o comentario, por favor contacta al correo electrónico (sc.jhonatan.mendoza.j@upds.net.bo) o a mi Github personal [Foreblack](https://github.com/ForeBlack-coder).
 
 ## Equipo de desarrollo
 [UPDS](https://www.facebook.com/UPDS.bo)
