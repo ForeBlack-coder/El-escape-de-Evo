@@ -43,7 +43,7 @@ Sobre los autores:
 
 Queremos agradecer a nuestro docente, al decano de la facultad de ingeniería y a la Universidad Privada Domingo Savio - Sede (Santa Cruz) por su apoyo y orientación a lo largo de este proyecto.
 ## Cómo Contribuir
-Como proyecto universitario, las contribuciones están limitadas a los miembros del equipo. Sin embargo, si encuentras algún error o tienes alguna sugerencia para mejorar el código o los análisis, no dudes en contactarte con el docente o el equipo de desarrollo.
+Como proyecto universitario, las contribuciones están limitadas a los miembros del equipo. Sin embargo, si encuentras algún error o tienes alguna sugerencia para mejorar el código o los análisis, no dudes en contactarte con el equipo de desarrollo.
 
 Para cualquier pregunta o comentario, por favor contacta al correo electrónico (sc.jhonatan.mendoza.j@upds.net.bo) o a mi [Github](https://github.com/ForeBlack-coder) personal.
 
