@@ -151,25 +151,41 @@ class GameLauncher:
         )
 
     def execute_camacho(self):
-        """Ejecuta Camacho.exe y oculta el launcher hasta que termine"""
+        """Ejecuta Camacho.py y oculta el launcher hasta que termine"""
         try:
-            exe_path = resource_path("modules/Camacho.exe")
-            if os.path.exists(exe_path):
+            # Cambiar de .exe a .py
+            py_path = resource_path("modules/EasterEgg.py")
+            if os.path.exists(py_path):
                 self.root.withdraw()
-                print("Ejecutando Camacho.exe")
+                print("Ejecutando Camacho.py")
 
-                process = subprocess.Popen([exe_path])
+                # Ejecutar el archivo Python con el intérprete actual
+                process = subprocess.Popen([sys.executable, py_path])
 
                 def wait_and_show():
                     process.wait()
                     self.root.deiconify()
-                    print("Camacho.exe ha finalizado")
+                    print("Camacho.py ha finalizado")
 
                 threading.Thread(target=wait_and_show, daemon=True).start()
             else:
-                print(f"Error: No se encontró {exe_path}")
+                print(f"Error: No se encontró {py_path}")
+                # Intentar con la versión .exe como fallback
+                exe_path = resource_path("modules/Camacho.exe")
+                if os.path.exists(exe_path):
+                    print("Archivo .py no encontrado, intentando con .exe")
+                    self.root.withdraw()
+                    process = subprocess.Popen([exe_path])
+                    
+                    def wait_and_show():
+                        process.wait()
+                        self.root.deiconify()
+                    
+                    threading.Thread(target=wait_and_show, daemon=True).start()
+                else:
+                    print("No se encontró ni el archivo .py ni el .exe")
         except Exception as e:
-            print(f"Error al ejecutar camacho.exe: {e}")
+            print(f"Error al ejecutar Camacho: {e}")
             self.root.deiconify()
 
     def open_readme(self):
@@ -226,27 +242,45 @@ class GameLauncher:
         self.root.after(2000, self.execute_game)
 
     def execute_game(self):
-        """Ejecuta ElEscapeDeEvo.exe y oculta el launcher hasta que termine"""
+        """Ejecuta ElEscapeDeEvo.py y oculta el launcher hasta que termine"""
         try:
-            exe_path = resource_path("modules/ElEscapeDeEvo.exe")
-            if os.path.exists(exe_path):
+            # Cambiar de .exe a .py
+            py_path = resource_path("modules/ElEscapeDeEvo.py")
+            if os.path.exists(py_path):
                 self.root.withdraw()
-                print("Ejecutando ElEscapeDeEvo.exe")
+                print("Ejecutando ElEscapeDeEvo.py")
 
-                process = subprocess.Popen([exe_path])
+                # Ejecutar el archivo Python con el intérprete actual
+                process = subprocess.Popen([sys.executable, py_path])
 
                 def wait_and_show():
                     process.wait()
                     self.progress.stop()
                     self.canvas.itemconfig(self.progress_window, state='hidden')
                     self.root.deiconify()
-                    print("ElEscapeDeEvo.exe ha finalizado")
+                    print("ElEscapeDeEvo.py ha finalizado")
 
                 threading.Thread(target=wait_and_show, daemon=True).start()
             else:
-                print(f"Error: No se encontró {exe_path}")
-                self.progress.stop()
-                self.canvas.itemconfig(self.progress_window, state='hidden')
+                print(f"Error: No se encontró {py_path}")
+                # Intentar con la versión .exe como fallback
+                exe_path = resource_path("modules/ElEscapeDeEvo.exe")
+                if os.path.exists(exe_path):
+                    print("Archivo .py no encontrado, intentando con .exe")
+                    self.root.withdraw()
+                    process = subprocess.Popen([exe_path])
+                    
+                    def wait_and_show():
+                        process.wait()
+                        self.progress.stop()
+                        self.canvas.itemconfig(self.progress_window, state='hidden')
+                        self.root.deiconify()
+                    
+                    threading.Thread(target=wait_and_show, daemon=True).start()
+                else:
+                    print("No se encontró ni el archivo .py ni el .exe")
+                    self.progress.stop()
+                    self.canvas.itemconfig(self.progress_window, state='hidden')
         except Exception as e:
             print(f"Error al ejecutar el juego: {e}")
             self.progress.stop()
