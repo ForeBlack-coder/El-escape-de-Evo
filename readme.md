@@ -20,7 +20,7 @@ Para configurar y ejecutar el juego, sigue los siguientes pasos:
  ``` bash pip install turtle ```  ``` bash pip install pygame ```  ``` bash pip install python-vlc ```  ``` bash pip install numpy ```  ``` bash pip install os-sys ``` 
 - Ejecuta el archivo Launcher.py para iniciar el juego: python launcher.py
 - o simplemente descarga el ejecutable de Google Drive: [Launcher.exe](https://drive.google.com/file/d/15wjVlr1ON_xdHBlietbqp82hJDfWh6Q8/view?usp=sharing)
-## Librerías Utilizadas
+## Librerías Utilizadas Para El Codigo Base
 
 Este proyecto utiliza las siguientes librerías Python:
 - [turtle](https://docs.python.org/3/library/turtle.html)
@@ -46,7 +46,7 @@ Queremos agradecer a nuestro docente, al decano de la facultad de ingeniería y 
 ## Cómo Contribuir
 Como proyecto universitario, las contribuciones están limitadas a los miembros del equipo. Sin embargo, si encuentras algún error o tienes alguna sugerencia para mejorar el código o los análisis, no dudes en contactarte con el equipo de desarrollo.
 
-Para cualquier pregunta o comentario, por favor contacta al correo electrónico (sc.jhonatan.mendoza.j@upds.net.bo) o a mi Github personal [Foreblack](https://github.com/ForeBlack-coder).
+Para cualquier pregunta o comentario, por favor contacta al correo electrónico sc.jhonatan.mendoza.j@upds.net.bo o a mi Github personal [Foreblack](https://github.com/ForeBlack-coder).
 
 ## Equipo de desarrollo
 [UPDS](https://www.facebook.com/UPDS.bo)
