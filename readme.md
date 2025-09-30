@@ -10,6 +10,10 @@ No permitas que te atrapen!!!!!
 
 "El escape de Evo" es un juego de Python turtle emocionante, diseñado para llevar al limite lo que se puede hacer con la libreria turtle. Controla al Ex presidente y escapa de las hordas de agentes de la DEA. El destino del narco-estado está en tus manos!
 
+## Un pequeño regalo
+
+![Employee data](assets/images/player.png)
+
 ## Configuración y Ejecución del Proyecto
 
 Para configurar y ejecutar el juego, sigue los siguientes pasos:
