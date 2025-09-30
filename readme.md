@@ -2,7 +2,7 @@
 En un mundo alterno donde gano el candidato Tuto Quiroga la presidencia del pais permitio el ingreso de la DEA al Chapare a capturar al ex presidente Evo Morales Ayma, nos ubicamos desde la perspectiva del Ex presidente huyendo en un laboratorio de droga mientras recolecta bolsas de coca para no dejar morir su negocio
 
 
-[![](https://markdown-videos.deta.dev/youtu.be/2UNZM1EQito)](https://youtu.be/2UNZM1EQito) 
+[![](https://markdown-videos.deta.dev/youtube/2UNZM1EQito)](https://youtu.be/2UNZM1EQito) 
 
 ![Employee data](resources/background.jpeg)
 
