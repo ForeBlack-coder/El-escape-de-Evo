@@ -1,6 +1,8 @@
 # Proyecto: El Escape De Evo
 En un mundo alterno donde gano el candidato Tuto Quiroga la presidencia del pais permitio el ingreso de la DEA al Chapare a capturar al ex presidente Evo Morales Ayma, nos ubicamos desde la perspectiva del Ex presidente huyendo en un laboratorio de droga mientras recolecta bolsas de coca para no dejar morir su negocio
 
+![Employee data](https://drive.google.com/file/d/1pNVc2-jhfqNP_ovHE_F8DClQfZsf4PjQ/view?usp=drive_link)
+
 ![Employee data](resources/background.jpeg)
 
 No permitas que te atrapen!!!!!
