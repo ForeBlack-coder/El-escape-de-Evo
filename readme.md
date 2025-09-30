@@ -23,7 +23,7 @@ Para configurar y ejecutar el juego, sigue los siguientes pasos:
 - Instala las librerías necesarias utilizando:
  ``` bash pip install turtle ```  ``` bash pip install pygame ```  ``` bash pip install python-vlc ```  ``` bash pip install numpy ```  ``` bash pip install os-sys ``` 
 - Ejecuta el archivo Launcher.py para iniciar el juego: python launcher.py
-- o simplemente descarga el ejecutable de Google Drive: [Launcher.exe](https://drive.google.com/file/d/15wjVlr1ON_xdHBlietbqp82hJDfWh6Q8/view?usp=sharing)
+- o simplemente descarga el ejecutable de Google Drive: [Launcher.exe](https://drive.google.com/file/d/17_HMJ4n2EzyaQuuCDnImrXu_gKveXObW/view?usp=sharing)
 ## Librerías Utilizadas Para El Codigo Base
 
 Este proyecto utiliza las siguientes librerías Python:
